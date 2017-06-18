@@ -1,0 +1,29 @@
+author: satomic.in
+date: 2017/06/18
+
+======================================================
+download
+git clone git@github.com:satomic/QuantTradeAssist.git
+
+======================================================
+repository update steps
+1. git fetch
+2. git stash
+3. git rebase origin/master
+4. git stash pop
+-----------------------------
+if there are conflicts come out, solve the conflicts firstly, and repeat steps from 2 to 4.
+
+======================================================
+code commit steps
+1. you MUST update your local repository firstly!
+2. git status
+3. git gui
+4. select the files you need to update to master branch and click the submit button.
+5. git push origin HEAD:refs/for/master
+
+======================================================
+commit rules
+author: satomic.in/yu.hou
+description: a brief description for your changes
+testcase: package/../function
