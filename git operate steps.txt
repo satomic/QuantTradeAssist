@@ -20,7 +20,7 @@ code commit steps
 2. git status
 3. git gui
 4. select the files you need to update to master branch and click the submit button.
-5. git push origin HEAD:refs/for/master
+5. git push -u origin master
 
 ======================================================
 commit rules
