@@ -24,6 +24,6 @@ code commit steps
 
 ======================================================
 commit rules
+desc: a brief description for your changes
 author: satomic.in/yu.hou
-description: a brief description for your changes
 testcase: package/../function
